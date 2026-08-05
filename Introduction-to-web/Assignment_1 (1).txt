@@ -78,7 +78,8 @@ Q5. Explain what a web server is and give examples of commonly used servers.
 
 Ans:
 
-A web server is software (often running on dedicated hardware) that stores, processes, and delivers web pages and other content to clients (browsers) in response to their HTTP/HTTPS requests. It listens for incoming requests, processes them, and sends back the appropriate response, such as an HTML page, image, or data.
+A web server is software (often running on dedicated hardware) that stores, processes, and delivers web pages and other content to clients (browsers) in response to their HTTP/HTTPS requests. 
+It listens for incoming requests, processes them, and sends back the appropriate response, such as an HTML page, image, or data.
 
 Examples of commonly used web servers:
 •  Apache HTTP Server – one of the most widely used open-source web servers.
@@ -130,10 +131,12 @@ Q8. Explain the difference between static and dynamic websites. Provide an examp
 
 Ans:
 
-Static Website: A website whose content remains the same for every user and does not change unless a developer manually edits the code. It is built using only HTML and CSS (and sometimes basic JavaScript), and it does not interact with a database.
+Static Website: A website whose content remains the same for every user and does not change unless a developer manually edits the code. 
+It is built using only HTML and CSS (and sometimes basic JavaScript), and it does not interact with a database.
 Example: A simple personal portfolio website or a company brochure page with fixed content.
 
-Dynamic Website: A website whose content can change based on user interaction, input, or data stored in a database. It uses server-side programming languages along with a database to generate content in real time.
+Dynamic Website: A website whose content can change based on user interaction, input, or data stored in a database. 
+It uses server-side programming languages along with a database to generate content in real time.
 Example: An e-commerce website like Amazon or Flipkart, where product listings, prices, and recommendations change based on data and user activity.
 
 Q9. Research and list five web browsers. Explain how rendering engines differ between them.
@@ -147,7 +150,8 @@ A rendering engine is the part of a browser responsible for interpreting HTML, C
 •  Microsoft Edge – uses the Blink rendering engine (Chromium-based) along with the V8 JavaScript engine.
 •  Opera – also uses the Blink rendering engine, since it is built on the Chromium project.
 
-Since Chrome, Edge, and Opera all use Blink, they render most web pages very similarly. Firefox (Gecko) and Safari (WebKit) may render certain CSS features, fonts, or animations slightly differently, which is why cross-browser testing is important for web developers.
+Since Chrome, Edge, and Opera all use Blink, they render most web pages very similarly. Firefox (Gecko) and Safari (WebKit) may render certain CSS features,
+fonts, or animations slightly differently, which is why cross-browser testing is important for web developers.
 
 Q10. Draw a labeled diagram showing the basic web architecture flow — client, server, database, and APIs.
 
