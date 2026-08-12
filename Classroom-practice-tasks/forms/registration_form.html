@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <table border="1" width="55%" align="center" cellpadding="9" cellspacing="0">
+        <tr>
+            <td colspan="2" align="center"><h4>Registration Form</h4></td>
+        </tr>
+
+        <tr>
+            <td> Full Name</td>
+            <td><input type="text" name="name" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <td> Email</td>
+            <td><input type="email" name="email" placeholder="abc@gmail.com"></td>
+        </tr>
+        <tr>    
+            <td>Phone Number</td>
+            <td><input type="tel" name="phone" placeholder="XXXXXXXXXX"></td>
+        </tr>
+        <tr>
+            <td> Date of Birth</td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+            <td> Gender</td>
+            <td>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+            </td>
+        </tr>
+
+        <tr>
+            <td>Skill</td>
+            <td><input type="checkbox" name="skill" value="html"> HTML
+                <input type="checkbox" name="skill" value="css"> CSS
+                <input type="checkbox" name="skill" value="javascript"> JavaScript</td>
+        </tr>
+
+        <tr>
+            <td >Course</td>
+            <td>
+                <select >
+                     <option value="">--Select Course--</option>
+                    <option value="bca" >BCA</option>
+                    <option value="bsc">BSC</option>
+                    <option value="bcom">BCOM</option>
+                    <option value="ba">BA</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Address</td>
+            <td><textarea name="address" rows="4" cols="50" placeholder="Enter your address"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Upload Resume</td>
+            <td><input type="file" name="resume"></td>
+
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
