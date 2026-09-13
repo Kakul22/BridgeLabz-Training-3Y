@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: #222;
+    color: white;
+}
+
+.content {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+}
+
+/* ---------------- ATTRIBUTE SELECTORS ---------------- */
+
+/* Selects input elements whose type is text */
+input[type="text"] {
+    border: 3px solid blue;
+}
+
+/* Selects links whose href starts with https */
+a[href^="https"] {
+    color: green;
+    font-weight: bold;
+}
+
+
+/* ---------------- PSEUDO-CLASSES ---------------- */
+
+/* :hover changes style when mouse is over element */
+a:hover {
+    text-decoration: underline;
+}
+
+/* :focus applies when input is selected */
+input:focus {
+    outline: 3px solid orange;
+}
+
+/* :nth-child() selects a specific child */
+.skills li:nth-child(2) {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* ---------------- PSEUDO-ELEMENTS ---------------- */
+
+/* Adds content before heading */
+h2::before {
+    content: "★ ";
+    color: orange;
+}
+
+/* Adds content after heading */
+h2::after {
+    content: " ✓";
+    color: green;
+}
+
+
+/* ---------------- COMBINATORS ---------------- */
+
+/* > selects direct children only */
+.parent > p {
+    background: lightblue;
+}
+
+/* Space is descendant selector */
+.parent p {
+    padding: 8px;
+}
+
+/* + selects the immediately following sibling */
+.skills li:first-child + li {
+    text-decoration: underline;
+}
+
+/* ~ selects all following siblings */
+.skills li:nth-child(2) ~ li {
+    font-style: italic;
+}

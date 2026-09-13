@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: #222;
+    color: white;
+}
+
+/* Arrange transformation boxes horizontally */
+.transform-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px 30px;
+}
+
+.item {
+    text-align: center;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: lightblue;
+    border: 3px solid #333;
+
+    /* Smooth transformation */
+    transition: all 0.4s ease;
+}
+
+/* Rotate the box */
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+/* Increase size */
+.scale:hover {
+    transform: scale(1.3);
+}
+
+/* Move the box */
+.translate:hover {
+    transform: translateY(-30px);
+}
+
+/* Slant the box */
+.skew:hover {
+    transform: skew(15deg, 10deg);
+}
+
+.item p {
+    font-weight: bold;
+}
+

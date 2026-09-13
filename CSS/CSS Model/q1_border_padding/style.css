@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+/* Flexbox aligns boxes horizontally */
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+/* Common box styling */
+.box {
+    width: 180px;
+    min-height: 120px;
+    background: white;
+    transition: border-color 0.4s ease;
+}
+
+/* Different border styles */
+.solid {
+    border: 5px solid blue;
+    padding: 20px;
+}
+
+.dashed {
+    border: 5px dashed green;
+    padding: 30px;
+}
+
+.double {
+    border: 6px double purple;
+    padding: 15px;
+}
+
+.groove {
+    border: 8px groove orange;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+/* Hover changes border color */
+.box:hover {
+    border-color: red;
+}
+
+/* Footer */
+footer {
+    padding: 15px;
+    background: #222;
+    color: white;
+}

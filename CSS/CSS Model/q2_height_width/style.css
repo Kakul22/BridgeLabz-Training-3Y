@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+/* Center boxes horizontally and vertically */
+.container {
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+}
+
+/* Common styling */
+.box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+
+    /* Prevent boxes from becoming too wide */
+    max-width: 300px;
+}
+
+/* Fixed pixel dimensions */
+.box1 {
+    width: 200px;
+    height: 150px;
+    background: lightblue;
+}
+
+/* Percentage width and em unit */
+.box2 {
+    width: 30%;
+    height: 10em;
+    background: lightgreen;
+
+    min-height: 120px;
+}
+
+/* Viewport height */
+.box3 {
+    width: 220px;
+    height: 30vh;
+    background: lightcoral;
+
+    /* Extra content will scroll */
+    overflow: auto;
+}
+
+.long-text {
+    text-align: left;
+}
+
