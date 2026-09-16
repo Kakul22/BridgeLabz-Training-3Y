@@ -6,5 +6,6 @@ css-practice
         └── task_05  
     |__ flex_grid (assignment)  
     |__ CSS Models (assignment)  
+    |__ CSS Classes (assignment) 
 
 
