@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Table Filter</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 30px;
+        }
+
+        input {
+            padding: 10px;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        #noResults {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Record Search</h2>
+
+    <input type="text" id="searchInput"
+           placeholder="Search student by name or branch">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>CGPA</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentTable">
+
+            <tr>
+                <td>Kakul</td>
+                <td>CSE</td>
+                <td>8.49</td>
+            </tr>
+
+            <tr>
+                <td>Rahul</td>
+                <td>IT</td>
+                <td>8.2</td>
+            </tr>
+
+            <tr>
+                <td>Priya</td>
+                <td>AIML</td>
+                <td>9.1</td>
+            </tr>
+
+            <tr>
+                <td>Aman</td>
+                <td>CSE</td>
+                <td>7.9</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <p id="noResults">No results found</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
